@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="adv-h">
+            <form>
+                <div style="padding: 20px;
+                margin-right: 20px;">
+        <a href="index.html"><img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"></a>
+                <input type="button" value="Пошук зображень Google" onClick='location.href="index_img_seach.html"'> 
+                <input type="button" value="Пошук Google" onClick='location.href="index.html"'> 
+                
+            
+            <div class="red_text">
+                <p>Розширений пошук</p>
+            </div>
+        </div>
+            </form>
+        </div>
+        <form action="https://google.com/search">
+            <div class="placeform">
+                <table>
+                    <tr>
+                        <th>Знайти сторінки, що містять...</th>
+                        <th></th>
+                        <th> Як це зробити в полі пошуку</tr>
+                    </tr>
+                    <tr>
+                        <td>усі ці слова:</td>
+                        <td><input type="text" name="as_q"></td>
+                        <td class="comment">Введіть важливі слова: триколірний рет-тер’єр</td>
+                    </tr>
+                    <tr>
+                        <td>точне слово або фразу:</td>
+                        <td><input type="text" name="as_epq"></td>
+                        <td class="comment">Візьміть точні слова в лапки: "рет-тер’єр"</td>
+                    </tr>
+                    <tr>
+                        <td>будь-яке з цих слів:</td>
+                        <td><input type="text" name="as_oq"></td>
+                        <td class="comment">Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</td>
+                    </tr>
+                    <tr>
+                        <td>жодне з цих слів:</td>
+                        <td><input type="text" name="as_eq"></td>
+                        <td class="comment">Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: right;"><input type="submit" value="Розширений пошук Google"></td>
+                        <td class="comment"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>
